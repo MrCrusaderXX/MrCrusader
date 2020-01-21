@@ -28,7 +28,7 @@ int _tmain(int argc, _TCHAR* argv[])
 						cin>>numlettere;
 						cout<<"Give me the key: ";
 						cin>>code;				
-						cout<<"Give me the message acsepted caracters a-z and for space use / (press enter after all letters): "<<endl;
+						cout<<"Give me the message accepted caracters a-z and for space use / (press enter after all letters and spaces): "<<endl;
 						do{
 							do{ 
 								cin>>message;
@@ -165,7 +165,7 @@ int _tmain(int argc, _TCHAR* argv[])
 								cin>>numlettere;
 								cout<<"Give me the key: ";
 								cin>>code;					
-								cout<<"Give me the message (press enter after all coded letters): "<<endl;
+								cout<<"Give me the message (press enter after all coded letters and spaces): "<<endl;
 								do{
 									do{ 
 										cin>>message;
